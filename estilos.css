@@ -208,6 +208,7 @@
 
     width: 90%;
     margin: 0 auto;
+    transition: .5s;
 }
 
 .us--container h2 {
@@ -331,4 +332,80 @@ footer{
     width: 100%;
     height: 60px;
     background: black;
+}
+
+
+@media screen and (min-width:900px){
+
+
+
+
+    .nav--bar-items{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        background: black;
+        transition: 0.5s;
+       
+    }
+
+
+    .nav--bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav--toggle-icon{
+        display: none;
+    }
+
+    .about--us-container{
+
+        display: flex;
+        flex-direction: row-reverse;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+
+    .about--us-image{
+
+        width: 45%;
+
+    }
+
+    .about--text-container{
+        
+        width: 55%;
+    }
+
+
+    .about--us-image figure img {
+
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .activities-item-container{
+
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .about--us-container{
+
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        padding-bottom: 20px;
+        border-bottom:1px solid gray;
+    }
+ 
+   
+    
 }
