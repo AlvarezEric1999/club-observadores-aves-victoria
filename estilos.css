@@ -343,12 +343,25 @@ footer{
     .nav--bar-items{
     
         display: flex;
+        flex-direction: row;
+        width: 300px;
+        height: 60px;
         justify-content: center;
         align-items: center;
-       
+        top: 0;
+        left: 70%;
         background: black;
-        transition: 0.5s;
+        transition: none;
        
+    }
+
+    .nav--bar-items a {
+    
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 0 20px 0  ;
+        font-family:"Poppins", sans-serif;
     }
 
 
@@ -407,5 +420,14 @@ footer{
     }
  
    
+    .members--grid-container{
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(4,200px);
+        grid-template-rows: repeat(4,100px);
+    }
     
 }
